@@ -1,0 +1,37 @@
+/* styles.css */
+
+::-webkit-scrollbar {
+    width: 0px;  /* 스크롤바의 너비 */
+}
+
+.scrollBarList {
+    height: 700px; /* 스크롤이 필요한 영역의 높이 설정 */
+    overflow-y: scroll; /* 세로 스크롤바만 표시 */
+}
+
+.scrollBarList::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+.scrollBarList::-webkit-scrollbar-thumb {
+    height: 10%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+.scrollBar {
+    height: 300px; /* 스크롤이 필요한 영역의 높이 설정 */
+    overflow-y: scroll; /* 세로 스크롤바만 표시 */
+}
+
+.scrollBar::-webkit-scrollbar {
+    width: 10px;  /* 스크롤바의 너비 */
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+    height: 10%; /* 스크롤바의 길이 */
+    background: #217af4; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
