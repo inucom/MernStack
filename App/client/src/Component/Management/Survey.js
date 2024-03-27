@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "../StyleCSS/styles.css";
+import "../../StyleCSS/styles.css";
 import Button from "react-bootstrap/Button";
 import {useSelector} from "react-redux";
 import axios from "axios";
@@ -43,7 +43,7 @@ function Survey() {
             <div>Let us know how we can improve our service</div>
             <br/>
             <br/>
-            <h4>각종 버그, 버그 시 상황, 제안</h4>
+            <h4>각종 버그, 버그 시 상황, 제안 깃허브테스트</h4>
             <div>
                         <textarea rows="10" placeholder="Enter your comment here..."
                                   style={{maxWidth:"900px",width:"90%", margin:"0 auto"}}
