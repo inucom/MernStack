@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import './App.css';
+
 import Heading from "./Component/Heading";
 import Footer from "./Component/Footer";
 import List from "./Component/style/List";
