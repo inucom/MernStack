@@ -11,7 +11,7 @@ import StyleArea from "./Component/style/StyleArea";
 import firebase from "./firebase";
 import Login from "./Component/user/Login"
 import Register from "./Component/user/Register"
-import SurveyList from "./Management/SurveyList";
+import SurveyList from "./Component/Management/SurveyList";
 
 import {Routes, Route} from "react-router-dom";
 import {loginUser,clearUser} from "./Reducer/userSlice";
@@ -37,7 +37,6 @@ function App() {
      <>
          <Heading/>
          <Routes>
-             <Route path="/" element={<Main/>} />
              <Route path="/upload" element={<Upload/>} />
              <Route path="/list" element={<List/>} />
              <Route path="/style/:styleNum" element={<StyleArea/>} />
@@ -45,6 +44,7 @@ function App() {
              <Route path="/login" element={<Login/>} />
              <Route path="/register" element={<Register/>} />
              <Route path="/surveylist" element={<SurveyList/>}/>
+             <Route path="/*" element={<Main/>} />
          </Routes>
          <Footer/>
      </>
